@@ -61,9 +61,13 @@ export function SignIn() {
           <Button className="mt-6 bg-blue-800" fullWidth type="submit">
             Sign In
           </Button>
-
+            <Typography variant="small" className="font-medium text-red-800 text-center mt-2 mb-2">
+              <a href="/dashboard/home">
+                CLick Dashboard
+              </a>
+            </Typography>
           <div className="flex items-center justify-between gap-2 mt-2 mb-4">
-            <Typography variant="small" className="font-medium text-blue-800">
+            <Typography variant="small" className="font-medium text-blue-800 ">
               <a href="#">
                 Forgot Pass?
               </a>
