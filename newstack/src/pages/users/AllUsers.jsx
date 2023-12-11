@@ -33,11 +33,10 @@ import * as jzip from "jszip";
 import "pdfmake";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
 import $ from "jquery";
-import { pdfMake } from "pdfmake/build/pdfmake";
-import * as pdfFonts from "pdfmake/build/vfs_fonts"; 
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
+import pdfMake from "pdfmake/build/pdfmake";
+import * as pdfFonts from "pdfmake/build/vfs_fonts";
+// pdfMake.vfs = pdfFonts.pdfMake.vfs;
 window.JSZip = jzip;
-
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
