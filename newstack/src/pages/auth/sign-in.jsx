@@ -62,7 +62,7 @@ export function SignIn() {
             Sign In
           </Button>
             <Typography variant="small" className="font-medium text-red-800 text-center mt-2 mb-2">
-              <a href="/dashboard/home">
+              <a href="/dashboard">
                 CLick Dashboard
               </a>
             </Typography>
