@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npm run dev ",
+     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -26,7 +28,7 @@
     "jszip": "^3.10.1",
     "pdfmake": "^0.2.8",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
+    "react": "17.0.2",
     "react-apexcharts": "1.4.1",
     "react-dom": "18.2.0",
     "react-redux": "^9.0.2",
